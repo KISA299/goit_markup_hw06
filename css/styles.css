@@ -512,9 +512,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--primary-white-color);
+  background-color: var(--active-link-color);
   cursor: pointer;
 
-Kateryna, [08.09.2023 14:56]
+
 background-color: var(--primary-accent-color);
   border: none;
   border-radius: 4px;
@@ -885,4 +886,35 @@ color: var(--secondary-white-color);
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-black-color);
+}
+.pages-two {
+ font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+padding: 24px 0;
+display: block;
+gap: 40px;
+position: relative;
+color: var(--primary-black-color)
+}
+.p-members {
+  text-align: center;
+  margin-bottom: 14px;
+}
+.button-modal {
+  position: absolute;;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--third-white-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
